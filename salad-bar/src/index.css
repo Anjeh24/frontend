@@ -1,5 +1,8 @@
 
 :root {
+  margin: 4px;
+  background-image: url(/src/mernpics/vegdoddle.jpg);
+  align-content: center;
   /* font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
@@ -69,11 +72,11 @@ button:focus-visible {
 } */
 /*==========================================================*/
 
-body {
+/* body {
   margin: 4px;
   background-image: url(/src/mernpics/vegdoddle.jpg);
   align-content: center;
-}
+}*/ */
 
 .nav_bar {
   display: flex;
@@ -83,19 +86,20 @@ body {
  
 }
 
-li {
+ li {
+  
  margin: 1%;
  list-style: none;
-}
+} 
 
-.la_cart{
+/* .la_cart{
 float: right;
-}
-.the_footer{
+} */
+/* .the_footer{
   
   margin: 1%;
-}
-.foot_div{
+} */
+ .foot_div{
   position: fixed;
    left: 0;
    bottom: 0;
@@ -103,24 +107,26 @@ float: right;
    background-color: #ADF802;
    
    text-align: center;
-}
+} */
 
-.heroim{
-  margin-top: 10%;
+ .heroim{
+  margin-top: 1%;
   margin-left: 42%;
   align-content: center;
-}
+} */
 
-.img1{
-  border-radius: 45%;
-  border-start-start-radius: 5%;
-  border-end-start-radius: 5%;
-}
+ .img1{
+  border-radius: 250px 0;
+  height: 250px;
+  width: 250px;
+} */
 
-.title {
+* .title {
   border: 3px, solid, #8da210;
-  border-radius: 5px;
-  text-align: center;
+  border-left: 0;
+  border-right: 0; 
+  /* border-radius: 5px; */
+   text-align: center;
   font-weight: bolder;
   font-family: Lucida sans-serif;
   
@@ -128,8 +134,12 @@ float: right;
 
 .headcol {
   color: #546109;
-  
-}
+  background-color: rgb(198, 241, 198);
+  border: 2px solid gray;
+  width: 30%;
+  margin-left: 33%;
+  border-radius: 20px;
+} 
 /* .ulfooter {
 border: 5px solid white;
 display: flex;
@@ -142,4 +152,4 @@ height: 30vh;
   background-image: url(/src/mernpics/.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-} */
+} */ 
