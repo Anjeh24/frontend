@@ -1,9 +1,9 @@
 import React from 'react'
 
-function Loginpg() {
+function Login() {
   return (
     <div>Loginpg</div>
   )
 }
 
-export default Loginpg
+export default Login
