@@ -1,6 +1,6 @@
 
 :root {
-  margin: 4px;
+  
   background-image: url(/src/mernpics/vegdoddle.jpg);
   align-content: center;
   /* font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
@@ -103,4 +103,65 @@ button:focus-visible {
 }
 .nav li:hover {
   background-color: rgb(86, 160, 86);
+}
+
+.thefoot {
+  border: 3px solid #ADF802;
+  position:absolute;
+  bottom: 0;
+  left: 0;
+ width: 100%;
+ text-align: center;
+ background-color: #ADF802;
+}
+
+.title{
+  text-align: center;
+  color: darkolivegreen;
+}
+.catchphrase{
+  text-align: center;
+  color: whitesmoke;
+  background-color: darkolivegreen;
+  padding: 5px;
+}
+
+.imgdiv {
+  display: flex;
+  justify-content: center;
+  padding-top: 70px;
+}
+.imgdiv img {
+  height: 250px;
+  width: 250px;
+  border-radius: 250px 0;
+  border: 4px solid olive;
+}
+
+.aboutcontent{
+  border: solid 3px  wheat;
+  width: 400px;
+ margin: 0 33% 0 33%;
+  margin-top: 5%;
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+
+.abt {
+  font-family: cursive;
+  color: olive;
+  margin-left: 10px ;
+}
+
+.loginform {
+  border: solid 3px olive;
+  height: 300px;
+  width: 300px;
+  margin: auto;
+  margin-top: 100px;
+  text-align: center;
+  background-color: wheat;
 }

@@ -7,8 +7,10 @@ import Order from './pages/Order'
 //import Viewcart from '../src/pages/Viewcart'
 import Home from './pages/Home'
 import Login from './pages/Login'
+import Footer from './components/Footer'
 
 function App() {
+    //trying to build file paths
     console.log(window.location)
     let anypage
     switch (window.location.pathname){
@@ -34,7 +36,8 @@ function App() {
   return (
     <>
     <Nav/>
-    {anypage}
+    {anypage} {/**code to render filepath contents */}
+    <Footer/>
     </>
     
   )

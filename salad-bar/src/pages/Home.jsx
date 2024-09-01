@@ -12,7 +12,12 @@ function Home() {
   return (
     <>
    
-    <div>Home</div>
+    <div>
+<h1 className='title'>Deli Greens</h1>
+<p className='catchphrase'>"Come for the experience, stay for the flavors and wellness........"</p>
+<div className='imgdiv'><img style={{width:250, height: 250}} src={rando2} alt='salad bowl'/></div>
+
+    </div>
     
     
     
