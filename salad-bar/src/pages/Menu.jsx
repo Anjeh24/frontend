@@ -30,8 +30,8 @@ console.log(theprice);
       <div>
         
         <label>Enter new greens</label><br/>
-        <input type="text" _id='' placeholder='Enter an Id' onChange={(e) => setTheid(e.target.value)}/><br/>
-        <input type="text" name='newgreens'  placeholder='Choose your ingredients' onChange={(e) => setpPostgreens(e.target.value)}/><br/>
+        <input type="text" _id='theid' placeholder='Enter an Id' onChange={(e) => setTheid(e.target.value)}/><br/>
+        <input type="text" name='postgreens'  placeholder='Choose your ingredients' onChange={(e) => setpPostgreens(e.target.value)}/><br/>
         <input type="text" category='thecategory' placeholder='category' onChange={(e) => setThecategory(e.target.value)}/><br/>
         <input type="text" price='theprice' placeholder='price' onChange={(e) => setTheprice(e.target.value)} /><br/>
 

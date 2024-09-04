@@ -6,6 +6,10 @@ import { useEffect } from 'react';
 
 function Update() {
 
+    // useEffect(()=>{
+    //    axios.get(`http://localhost:5050/greens/8`)
+    //    .then(res => console.log(res.data))
+    // }, [])
 
 
 const [greensData, setGreensData] = useState([]);
@@ -24,7 +28,9 @@ function updates(){
        .then((response) => {
         setGreensData(response.data);
        });  
+       console.log('http://localhost:5050/greens/8')
 }
+
   if (!greensData) return "post request failed!"
   return (
     <div>

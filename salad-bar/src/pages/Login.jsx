@@ -1,9 +1,10 @@
 import React from 'react'
+import App from '../App'
+import { useNavigate } from 'react-router-dom'
+import Nav from '../components/Nav'
+import Menu from './Menu'
 
 function Login() {
-
- 
-
 
   return (
     <div>
@@ -13,7 +14,7 @@ function Login() {
   <form>
     <input type="text" title="username" placeholder="username" /><br/>
     <input type="password" title="username" placeholder="password" /><br/>
-    <button type="submit" class="btn" onClick={() => alert('login successful')}>Login</button><br/>
+    <button type="submit" class="btn" onClick={() => alert('Login successful!')}>Login</button><br/>
     <a class="forgot" href="#">Forgot Username?</a><br/>   {/**Login form for loyal clients. Credits, codepen */}
   </form>
 </div>
