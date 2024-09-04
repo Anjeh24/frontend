@@ -11,3 +11,4 @@ Currently, two official plugins are available:
 This project is based off of the concept of a health food restaurant where people could order salad bowls on the go given their busy schedules.
 The technologies used for the frontend are React, JavaScript, HTML, and CSS. 
 Once on the home page, one could navigate to different sections of the page and complete task. As of now, cors enables the frontend to read the ingredient list in the database.
+Link to deployed site: https://chic-custard-a9df4b.netlify.app
